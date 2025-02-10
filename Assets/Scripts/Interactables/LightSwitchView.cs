@@ -1,8 +1,5 @@
-using System;
 using System.Collections.Generic;
-using UnityEditor.MPE;
 using UnityEngine;
-using static LightSwitchView;
 
 public class LightSwitchView : MonoBehaviour, IInteractable
 {
