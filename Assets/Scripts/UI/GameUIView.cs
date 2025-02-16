@@ -41,6 +41,7 @@ public class GameUIView : MonoBehaviour
         EventService.Instance.OnPlayerDeathEvent.RemoveListener(SetRedVignette);
         EventService.Instance.OnPlayerDeathEvent.RemoveListener(OnPlayerDeath);
         EventService.Instance.OnRatRush.RemoveListener(SetRedVignette);
+        EventService.Instance.OnSkullDrop.RemoveListener(SetRedVignette);
 
     }
 
